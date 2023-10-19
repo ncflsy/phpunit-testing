@@ -10,7 +10,7 @@ class WordCount
         return count(explode(" ", $setence));
     }
 }
-
+?>
 <h1> File SimpleTest.php </h1>
 <?php
 // code ini berfungsi untuk melakukan pemanggilan testcase
@@ -38,4 +38,4 @@ class SimpleTest extends TestCase
         $this->assertEquals(5, $WordCount);
     }
 }
-
+?>
